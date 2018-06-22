@@ -1,0 +1,2 @@
+# nazwy
+nazwy_poprawianie
