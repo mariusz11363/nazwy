@@ -13,7 +13,7 @@ nazwy <- function(plik_do_poprawy, zapis=F){
 
   #nazwy <- nazwy[1:500,]
 
-  for(i in 2:ncol(nazwy)){
+  for(i in 4:4){
 
     cat("Uruchomiono proces...\n")
 
