@@ -1,4 +1,4 @@
-nazwy <- function(plik_do_poprawy, zapis=F){
+nazwy <- function(plik_do_poprawy, plik_do_zapisu, zapis=F){
 
   library("stringr")
   library(splitstackshape)
@@ -177,9 +177,9 @@ nazwy <- function(plik_do_poprawy, zapis=F){
 
     cat("Rozpoczęto proces zapisu do pliku...\n")
     #write.csv(x = nazwy, file = lokalizacja_zapisu)
-    writexl::write_xlsx(nazwy, plik_do_poprawy,col_names = F)
+    writexl::write_xlsx(nazwy, plik_do_zapisu,col_names = F)
 
-    cat("Zapisano plik w lokalizacji ", plik_do_poprawy)
+    cat("Zapisano plik w lokalizacji ", plik_do_zapisu)
   }
 
 
